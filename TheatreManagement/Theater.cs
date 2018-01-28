@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace TheatreManagement
 {
-    /// <summary>
-    /// Theater Seats
-    /// </summary>
-    class RowSeating
+  /// <summary>
+  /// Theater Seats
+  /// </summary>
+  class RowSeating
     {
         public int Row { get; set; }
         public List<Section> SectionData { get; set; }
